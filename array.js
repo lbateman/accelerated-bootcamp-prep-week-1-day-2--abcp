@@ -43,7 +43,7 @@ function nonDestructivelyRemoveAtIndex(array) {
   var i = Math.floor(array.length / 2);
   newArrayFront = array.slice(0,i);
   newArrayBack = array.slice(i+1);
-  newArray = [...newArrayFront, ...newArrayBack]
-  return newArray
+  newArray = [...newArrayFront, ...newArrayBack];
+  return newArray;
 
 }
